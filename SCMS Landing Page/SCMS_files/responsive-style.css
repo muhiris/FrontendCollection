@@ -1,0 +1,409 @@
+.visible-xs {
+	display: none !important;
+}
+
+.hidden-xs {
+	display: block !important;
+}
+
+@media(max-width: 767px) {
+	.visible-xs {
+		display: block !important;
+	}
+
+	.hidden-xs {
+		display: none !important;
+	}
+}
+
+@media(max-width: 1200px) {
+
+	body,
+	html {
+		font-size: 15px;
+	}
+
+	.level-sec {
+		margin-top: 0;
+	}
+
+	.level-inner h1 {
+		font-size: 2.75rem;
+	}
+
+	.d-btn {
+		font-size: 1.75rem;
+	}
+}
+
+@media(max-width: 992px) {
+
+	body,
+	html {
+		font-size: 14px;
+	}
+
+	.login-content {
+		min-height: 24rem;
+		align-items: self-start;
+		margin-top: 5rem;
+	}
+
+	.login-inner h5 {
+		font-size: 1.25rem;
+	}
+
+	.login-inner p {
+		font-size: 0.95rem;
+	}
+
+	.d-btn {
+		margin-top: 2rem;
+		min-height: 14rem;
+		font-size: 1.5rem;
+	}
+
+	.big-btn {
+		margin: 0;
+	}
+}
+
+@media(max-width: 767px) {
+	.svg-1 {
+		display: block !important;
+		position: relative;
+		z-index: 9;
+	}
+
+	.svg-2 {
+		margin: auto;
+	}
+
+	.custom-mbl {
+		position: relative;
+	}
+
+	.custom-mbl::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 20rem;
+    top: -12rem;
+    filter: blur(15rem);
+    -webkit-filter:  blur(15rem);
+    background-color: #2745EA;
+}
+
+	.navbar-nav {
+		align-items: center;
+		justify-content: center;
+		height: 80%;
+		position: relative;
+		z-index: 9;
+	}
+
+	.hero-content h1 {
+		position: relative;
+	}
+
+	.bg-filter-1x-mbl-1x {
+		display: none;
+	}
+
+.filter-priority-mbl {
+    display: block !important;
+    position: absolute !important;
+    filter: blur(12rem) !important;
+    -webkit-filter:  blur(12rem) !important;
+    background-color: #2745EA !important;
+    width: 43rem !important;
+    height: 20rem !important;
+    left: 0 !important;
+    top: -16rem !important;
+}
+
+	.nav-sec {
+		z-index: 9;
+	}
+
+	.nav-item {
+		text-align: center;
+	}
+
+	.custom-mbl {
+		position: fixed;
+		padding: 1rem;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: #000;
+		z-index: 9;
+		height: initial !important;
+	}
+
+	.nav-link {
+		font-weight: 600;
+		font-size: 2.125rem;
+		color: #FFFFFF;
+		padding: 2rem 0;
+	}
+
+	.custom-mbl-inner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-bottom: 3rem;
+		margin-top: 1rem;
+	}
+
+	.navbar-toggler {
+		display: flex;
+		align-items: center;
+		background-color: transparent;
+		flex-direction: column;
+		gap: 0.35rem;
+		padding: 0.35rem;
+	}
+
+	.navbar-toggler-icon {
+		background-color: #fff;
+		width: 2.5rem;
+		height: 6px;
+		position: relative;
+		border-radius: 1rem;
+	}
+
+	.hero-sec {
+		background-image: url(../images/bg-hero-mbl.png);
+		background-position: 100% 0;
+		padding-bottom: 5rem;
+	}
+	.bg-filter-1 {
+    filter: blur(12rem);
+    -webkit-filter:  blur(12rem);
+}
+.organized-sec{
+	padding-bottom: 3rem;
+}
+.clicktoup{
+	bottom: 5rem;
+}
+
+	.store-col {
+		display: none;
+	}
+
+	.store-col1x {
+		display: block;
+		text-align: center;
+	}
+
+	.hero-content h4 {
+    /* display: none; */
+    position: relative;
+    z-index: 1;
+}
+
+	.hero-bg-img1x {
+		display: none !important;
+	}
+
+	.mbl-mbl {
+		display: block !important;
+		text-align: center;
+		margin-top: 2rem;
+	}
+
+	.store-col1x .d-flex {
+		justify-content: center;
+	}
+
+	.bg-filter-2 {
+		display: none;
+	}
+
+	.bg-filter-1 {
+		width: 20rem;
+		height: 20rem;
+		left: 0;
+		top: -2rem;
+	}
+
+	.bg-filter-1x-mbl {
+    display: block;
+    width: 100%;
+    height: 22rem;
+    left: 0;
+    filter: blur(14rem);
+    -webkit-filter:  blur(14rem);
+    top: -7rem;
+}
+
+	.lego-row {
+		flex-direction: column-reverse;
+	}
+
+	.lego-content-1 {
+		position: relative;
+	}
+
+	.lego-img {
+		margin-top: 3rem;
+	}
+
+	.lego-content-1 h1 {
+		padding: 0 3rem;
+	}
+
+	.lego-row {
+		margin-top: 4rem;
+	}
+
+	.login-content {
+		min-height: 20rem;
+		align-items: center;
+		margin-top: 2rem;
+	}
+
+	.bg-filter-4 {
+		width: 18rem;
+		height: 21rem;
+		left: -3rem;
+		top: 25rem;
+	}
+
+	.service-sec {
+		padding: 1rem 0;
+	}
+
+	.login-inner h5 {
+		font-size: 1.4rem;
+	}
+
+	.login-inner p {
+		font-size: 1rem;
+	}
+
+	.d-btn {
+		font-size: 2.25rem;
+	}
+
+	.bg-filter-6 {
+		display: none;
+	}
+
+	.bg-filter-5-mbl {
+    display: block;
+    top: -9rem;
+    right: calc(50% - 11rem);
+    left: auto;
+    width: 22rem;
+    height: 22rem;
+    filter: blur(10rem);
+    -webkit-filter:  blur(10rem);
+}
+
+	.organized-sec .lego-content-1 h1 {
+		margin-top: 3rem;
+		padding: 0;
+	}
+
+	.big-btn {
+		margin: 0 1.125rem;
+	}
+
+	.bg-filter-5-mbl1x-2 {
+    left: calc(50% - 9rem);
+    right: auto;
+    width: 18rem;
+    height: 18rem;
+    top: -7rem;
+    filter: blur(9rem);
+    -webkit-filter:  blur(9rem);
+}
+
+	.bg-filter-5-mbl1x {
+		width: 12rem;
+		height: 25rem;
+		display: none;
+	}
+
+	.footer-sec {
+		padding-top: 2rem;
+	}
+
+	.clicktoup {
+		right: 1rem;
+	}
+	.lego-sec.lego-sec-mbl {
+    background: radial-gradient(88% 77% at 98% 3%, rgba(146, 87, 146, 0.65) 0%, transparent);
+}
+.top-sec {
+    background: radial-gradient(134% 38% at 20% 6%, rgba(39, 69, 232, 0.5) 0%, transparent);
+}
+.serv-top {
+    background: radial-gradient(100% 15% at -4% 19%, rgba(39, 69, 232, 0.5) 0%, transparent), radial-gradient(85% 12% at 109% 46%, rgba(146, 87, 146, 0.65) 0%, transparent), radial-gradient(88% 12% at 0% 72%, rgba(39, 69, 232, 0.5) 0%, transparent), radial-gradient(94% 12% at 99% 94%, rgba(146, 87, 146, 0.55) 0%, transparent);
+}
+}
+
+@media(max-width: 570px) {
+	.lego-content h3 {
+		font-size: 2.125rem;
+	}
+
+	.lego-content-1 h1 {
+		font-size: 2rem;
+	}
+
+	.bg-filter-5-mbl1x-2 {
+		width: 10rem;
+		height: 20rem;
+		filter: blur(9rem);
+		-webkit-filter:  blur(9rem);
+	}
+
+	.bg-filter-5-mbl1x {
+		width: 10rem;
+		height: 20rem;
+		filter: blur(9rem);
+		-webkit-filter:  blur(9rem);
+	}
+}
+
+@media(max-width: 450px) {
+
+	.lego-content-1 h1 {
+		padding: 0 1rem;
+	}
+
+	.lego-content h3 {
+		font-size: 1.75rem;
+	}
+
+	.lego-content-1 h1 {
+		font-size: 1.75rem;
+	}
+
+	.d-btn {
+		font-size: 2rem;
+	}
+
+	.hero-content h1 {
+		font-size: 3.5rem;
+	}
+
+	.level-inner h1 {
+		font-size: 2.5rem;
+	}
+}
+
+@media(max-width: 350px) {
+	.lego-content h3 {
+		font-size: 1.5rem;
+	}
+
+	.lego-content-1 h1 {
+		font-size: 1.5rem;
+	}
+}

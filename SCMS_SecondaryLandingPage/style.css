@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --black: #000000;
+  --primary: #ffffff;
+  --secondary: #454545;
+}
+* {
+  color: white;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  overflow: hidden;
+}
+body {
+  background-color: var(--black);
+  height: 100vh;
+  transition: 0.5s ease-in-out;
+
+  overflow: hidden;
+}
+.main-container {
+  display: flex;
+  width: 200vw;
+}
+
+/* Starter Side where btn is  */
+.before-container {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.icon {
+  margin: 0rem 5rem;
+  max-width: 450px;
+}
+.cover {
+  font-weight: bold;
+  font-size: 3.2rem;
+  color: var(--secondary);
+}
+.cover-secondary {
+  font-weight: bold;
+  font-size: 4rem;
+  color: var(--primary);
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+
+.btn a {
+  padding: 20px 60px;
+  border: none;
+  outline: none;
+  position: relative;
+  z-index: 1;
+  border-radius: 35px;
+  background: linear-gradient(
+    90deg,
+    #c0ce3a 0%,
+    #f4a91b 28.73%,
+    #f4664a 55.99%,
+    #9851b1 78.54%,
+    #64a4de 100%
+  );
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+.btn a::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  top: 2px;
+  bottom: 2px;
+  border-radius: 4px;
+  background-color: black;
+  z-index: -1;
+
+  border-radius: 35px;
+  transition: 200ms;
+}
+.btn a::after {
+  content: attr(data);
+  font-size: 1.2rem;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.btn img {
+  transition: all 0.3s ease-in-out;
+}
+.btn a:hover + img {
+  transform: translateX(70px);
+}
+
+/* after btn clicked that side */
+.after-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.after-container > div {
+  text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  .icon {
+    display: none;
+  }
+  body {
+    background: var(--black) url("./assets/Group\ 6.png") no-repeat center
+      center fixed;
+  }
+  .before-container {
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+  }
+  .btn {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  html {
+    font-size: 10px;
+  }
+}

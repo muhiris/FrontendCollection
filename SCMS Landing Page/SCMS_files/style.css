@@ -1,0 +1,472 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body,
+html {
+  margin: 0;
+  font-size: 16px;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif !important;
+  background-color: #000;
+}
+:root {
+  scroll-behavior: initial;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding-right: 1.75rem;
+  padding-left: 1.75rem;
+}
+
+.navbar {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.top-sec {
+  background: radial-gradient(
+    24% 86% at 10% 6%,
+    rgba(39, 69, 232, 0.3) 0%,
+    transparent
+  );
+}
+.lego-sec.lego-sec-mbl {
+  background: radial-gradient(
+    27% 77% at 98% 3%,
+    rgba(146, 87, 146, 0.45) 0%,
+    transparent
+  );
+}
+.serv-top {
+  background: radial-gradient(
+      36% 20% at 0% 22%,
+      rgba(39, 69, 232, 0.3) 0%,
+      transparent
+    ),
+    radial-gradient(
+      30% 24% at 102% 37%,
+      rgba(146, 87, 146, 0.45) 0%,
+      transparent
+    ),
+    radial-gradient(36% 20% at 0% 72%, rgba(39, 69, 232, 0.3) 0%, transparent),
+    radial-gradient(
+      30% 24% at 102% 88%,
+      rgba(146, 87, 146, 0.45) 0%,
+      transparent
+    );
+}
+.hero-sec {
+  background-image: url(../images/bg-hero.png);
+  background-position: 45% 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 3rem 0;
+  padding-bottom: 5rem;
+}
+
+.navbar-brand img {
+  width: 6rem;
+  position: relative;
+}
+
+.hero-content h4 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin: 0;
+}
+
+.hero-content h1 {
+  font-weight: 600;
+  font-size: 3.4rem;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.store-col {
+  margin-top: 3.5rem;
+}
+
+.store-col p {
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+}
+
+.store-col img {
+  width: 11.5rem;
+  max-width: 100%;
+}
+
+.level-sec {
+  background: linear-gradient(90deg, #2745ea 2.94%, #e645bd 100%);
+  margin-top: -2.1rem;
+}
+
+.level-inner {
+  text-align: center;
+  padding: 2rem 0;
+}
+.img-figma {
+  margin-bottom: 7rem;
+}
+.level-inner h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.5;
+}
+.big-btn .d-btn {
+  font-size: 1.8rem;
+  cursor: initial;
+}
+.lego-sec {
+  padding: 3rem 0;
+}
+
+.lego-content {
+  text-align: center;
+  position: relative;
+}
+.lego-sec.lego-sec-mbl {
+  padding-top: 5rem;
+}
+.lego-content h3 {
+  font-weight: 600;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+}
+
+.lego-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lego-img img {
+  width: 26rem;
+}
+
+.lego-content-1 h1 {
+  font-weight: 600;
+  font-size: 2.25rem;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.lego-content-1 h1 span:nth-child(1) {
+  color: #3e4dec;
+}
+
+.lego-content-1 h1 span:nth-child(2) {
+  color: #d546c1;
+}
+
+.lego-content-1 h1 span:nth-child(3) {
+  color: #9f6df2;
+}
+
+.lego-row {
+  margin-top: 5rem;
+}
+
+.login-content {
+  cursor: pointer;
+  min-height: 21rem;
+  background: rgba(28, 28, 28, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(22px);
+  backdrop-filter: blur(22px);
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.25rem;
+  width: 24rem;
+  margin: auto;
+  margin-top: 7rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.login-inner img {
+  margin-bottom: 2rem;
+}
+
+.login-inner h5 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.login-inner p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  margin-top: 1.5rem;
+  min-height: 5.4rem;
+}
+
+.service-row {
+  width: 74rem;
+  margin: auto;
+  max-width: 100%;
+}
+
+.organized-sec {
+  padding: 7rem 0;
+  padding-top: 2rem;
+}
+
+.organized-sec .lego-content-1 h1 {
+  margin-top: 4rem;
+}
+
+.big-btn {
+  margin: 0 1.125rem;
+}
+
+.d-btn {
+  font-weight: 700;
+  font-size: 2.2rem;
+  line-height: 180%;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  min-height: 15rem;
+  margin-top: 5rem;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(to top, #c748c6, #4850ec) border-box;
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  transition: 0.1s;
+}
+
+.d-btn:hover {
+  background: linear-gradient(90deg, #2745ea 2.94%, #c748c6 100%);
+  border: 0;
+}
+
+.contact-content h6 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.c-btn {
+  background: linear-gradient(90deg, #2745ea 2.94%, #c748c6 100%);
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #ffffff;
+  width: 15rem;
+  height: 4rem;
+  border: 0;
+  max-width: 100%;
+  margin-top: 2rem;
+  transition: 0.1s;
+}
+
+.c-btn:hover {
+  color: #fff;
+  border: 1px solid #c748c6;
+  background: transparent;
+}
+
+.footer-sec {
+  padding-top: 10rem;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-content img {
+  width: 11rem;
+}
+
+.footer-content svg {
+  margin: 1rem 0;
+}
+
+.footer-content p {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.under-foot {
+  background: linear-gradient(
+    151.46deg,
+    rgba(39, 69, 234, 0.2) 2.82%,
+    rgba(207, 123, 244, 0.2) 106.9%,
+    rgba(183, 72, 202, 0.2) 106.9%
+  );
+}
+
+.under-foot p {
+  font-size: 1rem;
+  color: #ffffff;
+  padding: 1.125rem;
+  margin: 0;
+  text-align: center;
+}
+
+.nav-sec,
+.hero-sec,
+.level-sec,
+.service-sec,
+.organized-sec,
+.footer-sec {
+  position: relative;
+  z-index: 1;
+}
+
+.bg-filter-1 {
+  position: absolute;
+  width: 14rem;
+  height: 16rem;
+  left: -1rem;
+  top: -5rem;
+  -webkit-filter: blur(10rem);
+  filter: blur(10rem);
+  background-color: #2745ea;
+}
+
+.bg-filter-2 {
+  background-color: #925792;
+  right: -5rem;
+  top: 8rem;
+  left: auto;
+  width: 15rem;
+  height: 17rem;
+}
+
+.bg-filter-3 {
+  background-color: #925792;
+  right: -8rem;
+  top: 8rem;
+  left: auto;
+  width: 16rem;
+  height: 18rem;
+}
+
+.bg-filter-4 {
+  position: absolute;
+  width: 14rem;
+  height: 16rem;
+  left: -3rem;
+  top: 3rem;
+  -webkit-filter: blur(10rem);
+  filter: blur(10rem);
+  background-color: #2745ea;
+}
+
+.bg-filter-5 {
+  background-color: #925792;
+  right: -6rem;
+  left: auto;
+  width: 16rem;
+  height: 18rem;
+  top: auto;
+  bottom: -6rem;
+}
+
+.bg-filter-6 {
+  top: auto;
+  bottom: -5rem;
+  width: 14rem;
+  height: 18rem;
+}
+.lego-sec.service-sec {
+  padding-top: 5rem;
+  padding-bottom: 8rem;
+}
+.clicktoup {
+  position: fixed;
+  right: 5rem;
+  bottom: 5rem;
+  cursor: pointer;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.clicktoup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #2745ea 2.94%, #c748c6 100%);
+}
+.clicktoup img {
+  width: 2rem;
+  height: 2rem;
+}
+.store-col1x {
+  display: none;
+}
+
+.mbl-mbl {
+  display: none !important;
+}
+
+.lego-sec-mbl {
+  position: relative;
+}
+
+.bg-filter-1x-mbl {
+  display: none;
+}
+
+.bg-filter-5-mbl {
+  display: none;
+}
+
+.contact-sec {
+  position: relative;
+}
+
+.filter-priority-mbl {
+  display: none !important;
+}
+
+.svg-1 {
+  display: none !important;
+}
+.mbl-mbl img {
+  max-width: 90%;
+  width: 30rem;
+}
