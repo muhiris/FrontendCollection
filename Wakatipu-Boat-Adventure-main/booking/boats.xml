@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Boats>
+    <boat id="tereboat">
+        <rows>
+            <row id="tereboatr1">
+                <seat id="tereboatr1s1">
+                    <price>30</price>
+                    <booked>
+                        <from></from>
+                        <till></till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr1s2">
+                    <price>30</price>
+                    <booked>
+                        <from></from>
+                        <till></till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr1s3">
+                    <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr1s4">
+                    <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr1s5">
+                    <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr1s6">
+                    <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="tereboatr2">
+                <seat id="tereboatr2s1">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr2s2">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr2s3">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr2s4">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr2s5">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr2s6">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr2s7">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr2s8">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr2s9">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                
+            </row>
+            <row id="tereboatr3">
+                <seat id="tereboatr3s1">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr3s2">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr3s3">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr3s4">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr3s5">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr3s6">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr3s7">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr3s8">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr3s9">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="tereboatr4">
+                <seat id="tereboatr4s1">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr4s2">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr4s3">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr4s4">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr4s5">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr4s6">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr4s7">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr4s8">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr4s9">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="tereboatr5">
+                <seat id="tereboatr5s1">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+
+                    </booked>
+                </seat>
+                <seat id="tereboatr5s2">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr5s3">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr5s4">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr5s5">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr5s6">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr5s7">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr5s8">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr5s9">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="tereboatr6">
+                <seat id="tereboatr6s1">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr6s2">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr6s3">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr6s4">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr6s5">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr6s6">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr6s7">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr6s8">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr6s9">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="tereboatr7">
+                <seat id="tereboatr7s1">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr7s2">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr7s3">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr7s4">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr7s5">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr76">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr7s7">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr7s8">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr7s9">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="tereboatr8">
+                <seat id="tereboatr8s1">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr8s2">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr8s3">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr8s4">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr8s5">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="tereboatr8s6">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+        </rows>
+        <menu id="tereboatmenu">
+
+        <item id="tereboatitem1" category="vegetarian">
+            <title>Dish1</title>
+            <!-- <img width="100" height="100" src="{../assets/food.jpeg}" class="CalloutRightPhoto"/> -->
+
+            <image>https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000</image>
+            <description>
+                This is a very good dish!
+            </description>
+            <cost>15</cost>
+        </item>
+        <item id="tereboatitem2"  category="egg free">
+            <title>Dish1</title>
+            <image>https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000</image>
+            <description>
+                This is a very good dish 2!
+            </description>
+            <cost>20</cost>
+        </item>
+        </menu>
+    </boat>
+    <boat id="nuiboat">
+        <rows>
+            <row id="nuiboatr1">
+                <seat id="nuiboatr1s1">
+                     <price>30</price>
+                    <booked>
+                        <from></from>
+                        <till></till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr1s2">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr1s3">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr1s4">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr1s5">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr1s6">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr1s7">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="nuiboatr2">
+                <seat id="nuiboatr2s1">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr2s2">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr2s3">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr2s4">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr2s5">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr2s6">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr2s7">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr2s8">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr2s9">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr2s10">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr2s11">
+                     <price>30</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="nuiboatr3">
+                <seat id="nuiboatr3s1">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr3s2">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr3s3">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr3s4">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr3s5">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr3s6">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr3s7">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr3s8">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr3s9">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr3s10">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr3s11">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr3s12">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr3s13">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="nuiboatr4">
+                <seat id="nuiboatr4s1">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr4s2">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr4s3">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr4s4">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr4s5">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr4s6">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr4s7">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr4s8">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr4s9">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr4s10">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr4s11">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr4s12">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr4s13">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="nuiboatr5">
+                <seat id="nuiboatr5s1">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr5s2">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr5s3">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr5s4">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr5s5">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr5s6">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr5s7">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr5s8">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr5s9">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr5s10">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr5s11">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr5s12">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr5s13">
+                     <price>25</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="nuiboatr6">
+                <seat id="nuiboatr6s1">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr6s2">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr6s3">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr6s4">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr6s5">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr6s6">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr6s7">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr6s8">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr6s9">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr6s10">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr6s11">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr6s12">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr6s13">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="nuiboatr7">
+                <seat id="nuiboatr7s1">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr7s2">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr7s3">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr7s4">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr7s5">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr7s6">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr7s7">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr7s8">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr7s9">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr7s10">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr7s11">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+            </row>
+            <row id="nuiboatr8">
+                <seat id="nuiboatr8s1">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr8s2">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr8s3">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr8s4">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr8s5">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr8s6">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+                <seat id="nuiboatr8s7">
+                     <price>20</price>
+                    <booked>
+                        <from>12-10-22</from>
+                        <till>13-10-22</till>
+                        <user></user>
+                    </booked>
+                </seat>
+
+            </row>
+        </rows>
+        <menu>
+        <item id="nuiboatitem1" category="vegetarian">
+            <title>Dish1</title>
+            <image>https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000</image>
+            <description>
+                This is a very good dish!
+            </description>
+            <cost>15</cost>
+        </item>
+        <item id="nuiboatitem2" category="egg free">
+            <title>Dish2</title>
+            <image>https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000</image>
+            <description>
+                This is a very good dish 2!
+            </description>
+            <cost>20</cost>
+        </item>
+        <item id="nuiboatitem3" category="meat">
+            <title>Dish3</title>
+            <image>https://img.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_2829-6471.jpg?w=2000</image>
+            <description>
+                This is a very good dish 3!
+            </description>
+            <cost>20</cost>
+        </item>
+        </menu>
+    </boat>
+</Boats>

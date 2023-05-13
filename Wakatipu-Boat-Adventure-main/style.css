@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Clash Grotesk";
+  src: url("./assets/ClashGrotesk-Regular.otf");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Clash Grotesk";
+  font-size: 1rem;
+  overflow-y: hidden;
+}
+body {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+
+  overflow: hidden;
+}
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-title {
+  margin-top: 20vh;
+  background: linear-gradient(
+    90deg,
+    #ff3bff 0%,
+    #ecbfbf 38.02%,
+    #5c24ff 75.83%,
+    #d94fd5 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 5rem;
+  line-height: 98px;
+  letter-spacing: 0.02em;
+  max-width: 600px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+button {
+  padding: 1rem;
+  margin: 0.5rem;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(
+        90deg,
+        #ff3bff 0%,
+        #ecbfbf 38.02%,
+        #5c24ff 75.83%,
+        #d94fd5 100%
+      )
+      border-box;
+  border-radius: 100px;
+  border: 2px solid transparent;
+}
+button:hover {
+  opacity: 0.8;
+}
+.tasks {
+  margin-top: 5vh;
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.img-stuff {
+  display: inline;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.light-robot {
+  z-index: 1;
+}
+.robots {
+  position: absolute;
+  bottom: 10vh;
+  right: 0vh;
+  z-index: -10;
+  display: inline;
+  background: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media screen and (min-width: 1450px) {
+  .robots {
+    bottom: 0vh;
+  }
+}
+@media screen and (max-width: 980px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 815px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tasks {
+    flex-direction: column;
+  }
+  button {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .content {
+    height: 100vh;
+  }
+  .main-title {
+    font-size: 3rem;
+
+    line-height: 50px;
+  }
+  .robots {
+    bottom: 0vh;
+  }
+}

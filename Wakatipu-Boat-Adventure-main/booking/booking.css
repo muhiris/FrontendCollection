@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Clash Grotesk";
+  src: url("../assets/ClashGrotesk-Regular.otf");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Clash Grotesk";
+  font-size: 1rem;
+  color: white;
+}
+body {
+  background-color: black;
+  display: flex;
+  flex:1;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+}
+#boatViewContainer {
+  padding: 1rem;
+}
+#boatMenuContainer {
+  padding: 2rem;
+}
+#boatMenuContainer > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#boatMenuContainer > div > div > :not(:first-child) {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  width: 40%;
+  text-align: center;
+  font-size: 1.6rem;
+}
+#boatMenuContainer > div > div > :last-child:hover {
+  /* box shadow for div */
+  box-shadow: 0px 4px 4px rgba(255, 0, 0, 1);
+  cursor: pointer;
+}
+#boatMenuContainer > div > div > :nth-child(1) {
+  font-size: 1.4rem;
+
+  padding: 1rem;
+}
+
+#boatMenuContainer > div > div > :nth-child(2) {
+  padding: 1rem 0rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  text-align: center;
+}
+
+#boatMenuContainer > div > div > :nth-child(3) {
+  padding: 1rem 0rem;
+  font-size: 1.4rem;
+}
+#boatMenuContainer > div > div > :last-child {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  text-align: center;
+}
+#boatMenuContainer > p {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* #tereboatr1 > div,
+#tereboatr2 > div,
+#tereboatr3 > div,
+#tereboatr4 > div {
+  padding: 1.2rem !important;
+  /* transition: 0.1s ease-in-out; */
+  background-color: black !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid black;
+  /* margin: 0rem 1px; */
+} */
+#tereboatr1 > div > div > ul > li,
+#tereboatr2 > div > div > ul > li,
+#tereboatr3 > div > div > ul > li,
+#tereboatr4 > div > div > ul > li {
+  color: transparent !important;
+}
+#tereboatr1 > div > div:hover,
+#tereboatr2 > div > div:hover,
+#tereboatr3 > div > div:hover,
+#tereboatr4 > div > div:hover {
+  color: white;
+  background: #5c24ff !important;
+  cursor: pointer;
+  display: block;
+}
+#tereboatr1 > div:hover > div > ul > li,
+#tereboatr2 > div:hover > div > ul > li,
+#tereboatr3 > div:hover > div > ul > li,
+#tereboatr4 > div:hover > div > ul > li {
+  color: white !important;
+}
+@media screen and (max-width: 768px) {
+  #boatMenuContainer > div > div > :not(:first-child) {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 480px) {
+  #boatMenuContainer > div > div > :not(:first-child) {
+    width: 100%;
+  }
+}

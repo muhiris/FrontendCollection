@@ -1,0 +1,10 @@
+Game is controlled by
+1.Up arrow Key (for Jumping)
+2. Down Arrow Key (for standing ideal also is default state)
+3. left and right arrow keys for moving leftwards and rightwards
+
+4. Enter is special key for swinging bat
+
+5. 3 sound tracks are implemented some are online resources so turn on your internet when playing
+
+6.score and time is showing on top left

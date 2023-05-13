@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css" />
+    <script defer src="https://use.fontawesome.com/4ecc3dbb0b.js"></script>
+  </head>
+
+  <div class="form_wrapper">
+    <div class="form_container">
+      <div class="title_container">
+        <h2>Boat Reservation Service</h2>
+      </div>
+      <div class="row clearfix">
+        <div class="">
+          <form>
+            <div class="input_field select_option">
+              <select>
+                <option>Menu</option>
+                <option>Basic Pack</option>
+                <option>Premium Pack</option>
+                <option>Family Pack</option>
+                <!-- <option>Nuiboat 1</option> -->
+              </select>
+            </div>
+
+            <div class="input_field select_option">
+              <select>
+                <option>Seat Number</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <!-- <option>Nuiboat 1</option> -->
+              </select>
+            </div>
+
+            <div class="input_field radio_option">
+              <input type="radio" name="radiogroup1" id="rd1" checked />
+              <label for="rd1">TereBoat</label>
+              <input type="radio" name="radiogroup1" id="rd2" />
+              <label for="rd2">NuiBoat</label>
+            </div>
+            <div class="input_field select_option">
+              <select>
+                <option>Tereboat 1</option>
+                <option>Tereboat 2</option>
+                <option>Tereboat 3</option>
+                <!-- <option>Nuiboat 1</option> -->
+              </select>
+            </div>
+            <input
+              class="button"
+              type="submit"
+              value="Register"
+              onClick="myFunction()"
+            />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function myFunction() {
+      window.location.href = "www.google.com";
+      console.log(`dsad`);
+    }
+  </script>
+</html>

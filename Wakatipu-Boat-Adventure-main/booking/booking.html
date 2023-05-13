@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./booking.css" />
+    <title>Booking Boats</title>
+  </head>
+  <body>
+    <div id="currentWeather"></div>
+    <div id="listDiv">
+      <select
+        id="selectedBoat"
+        style="color: #000"
+        default="false"
+        onchange="myFunction()"
+      ></select>
+      <div style="margin-top: 20px">
+        <div style="display: flex; align-items: center">
+          <div style="width: 10px; height: 10px; background-color: green"></div>
+          <p style="margin-left: 10px">Booked by you</p>
+        </div>
+        <div style="display: flex; align-items: center">
+          <div style="width: 10px; height: 10px; background-color: pink"></div>
+          <p style="margin-left: 10px">Already Booked</p>
+        </div>
+        <div style="display: flex; align-items: center">
+          <div
+            style="width: 10px; height: 10px; background-color: skyblue"
+          ></div>
+          <p style="margin-left: 10px">Available</p>
+        </div>
+      </div>
+    </div>
+    <div id="boatViewContainer"></div>
+    <div id="boatMenuContainer"></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

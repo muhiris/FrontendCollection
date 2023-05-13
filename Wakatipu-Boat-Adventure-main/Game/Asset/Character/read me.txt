@@ -1,0 +1,17 @@
+Hi I hope you enjoy this asset
+
+
+I would just like to point out a few things that might make your life a bit easier.
+
+- This download includes spritesheets which I have exported at a large size in an effort to please everybody. Please be aware that you can export larger size spritesheets while  maintaining a high resolution from the included spriter file. 
+
+- You can also use this file to export smaller size spritesheets and also the animations in individual keyframes. re-exporting smaller spritesheets is faster from the spriter file than resizing each spritesheet in a program like Photoshop.
+
+I have tried to include a variety of characters in this ownload but it would be impossible to include all combinations or character maps, you can easily create more using the sprite file. You don't need spriter pro either.
+
+- If you're not aware already , brashmonkey Spriter has a free version, which is all you need to edit the included file.
+
+
+
+
+
