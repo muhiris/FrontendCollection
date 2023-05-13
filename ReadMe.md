@@ -5,13 +5,6 @@ This repository is a collection of frontend projects showcasing HTML, CSS, and J
 
 <br/>
 
-> Note: Recently added projects that are not included in Frontend showcase Website.
->
-> - [React Dashboard UI](https://harisadminpanel.netlify.app)
-> - [Teacher Onboarding](https://starlit-fairy-c91d46.netlify.app)
-
-<br/>
-
 ## Table of Contents
 1. [Projects](#projects)
 2. [How to Use](#how-to-use)
@@ -37,8 +30,14 @@ This repository is a collection of frontend projects showcasing HTML, CSS, and J
 | SCMS_secondaryLandingpage | A secondary landing page for an app with a description and beautiful design. | [Link](https://github.com/muhiris/FrontendCollection/tree/main/SCMS_SecondaryLandingPage) |
 
 <br/>
-<a name="how-to-use"></a>
 
+> Note: Recently added projects that are not included in Frontend showcase Website.
+>
+> - [React Dashboard UI](https://harisadminpanel.netlify.app)
+> - [Teacher Onboarding](https://starlit-fairy-c91d46.netlify.app)
+
+
+<a name="how-to-use"></a>
 ## How to Use
 
 ### HTML, CSS, JS Based Full Projects
