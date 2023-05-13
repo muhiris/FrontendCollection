@@ -1,0 +1,228 @@
+.container {
+  margin: auto;
+  width: 90%;
+  max-width: 900px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* background: linear-gradient(to bottom, #f10303 0%, #f10303 100%); */
+  /* border-radius: 20px; */
+}
+
+h5 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 14px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.product_image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: linear-gradient(to bottom, #f10303 0%, #f10303 100%); */
+  border-radius: 20px 20px 0 0;
+  /* padding: 55px 0; */
+  width: 100%;
+  margin: 0;
+}
+.product_pic {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.product_details {
+  padding: 30px;
+  background-color: #0f172a;
+  border-radius: 0 0 20px 20px;
+}
+.product_details .title {
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+}
+.product_details .colorCat {
+  text-transform: uppercase;
+  font-style: italic;
+  color: #bbb;
+  font-weight: 700;
+  font-size: 14px;
+}
+.product_details .price {
+  font-weight: 700;
+  /* margin-top: 5px; */
+  font-size: 18px;
+}
+.product_details .price .current {
+  color: #fe6168;
+  margin-left: 6px;
+}
+.product_details header {
+  margin-bottom: 35px;
+  position: relative;
+}
+.product_details article > h5 {
+  color: white !important;
+  margin: 0;
+}
+.product_details article > p {
+  color: #bbb;
+  margin: 0.5em 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+.product_details .controls {
+  margin: 3em 0;
+}
+.product_details .controls > div {
+  flex: 1;
+}
+.product_details .controls .option {
+  margin-top: 12px;
+  display: inline-block;
+  position: relative;
+}
+.product_details .controls .option:hover {
+  color: #444444;
+}
+.product_details .controls .option::before {
+  content: "";
+  position: absolute;
+  border-width: 2px 2px 0 0;
+  border-style: solid;
+  top: 0;
+  bottom: 0;
+  height: 5px;
+  width: 5px;
+  right: -18px;
+  margin: auto;
+  transform: rotate(135deg);
+}
+.product_details .controls > div + div {
+  margin-top: 20px;
+  flex: none;
+}
+.product_details .controls ul {
+  display: flex;
+  margin: 15px 5px;
+}
+.product_details .color li + li {
+  margin-left: 15px;
+}
+.product_details .colors {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer > button {
+  display: flex;
+  border: 0;
+  padding: 15px 25px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 7px;
+  cursor: pointer;
+  background: linear-gradient(to bottom, #ff0000 0%, #ff0000 100%);
+  /* box-shadow: 0 1px 10px 0 rgba(255, 136, 107, 0.9); */
+  transition: 200ms;
+}
+.footer > button > a {
+  margin-left: 5px;
+}
+.footer > button:hover {
+  background: linear-gradient(to bottom, #dd0000 0%, #ff0000 100%);
+}
+.footer > button > img {
+  width: 31px;
+}
+.footer > button > span {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 10px;
+  color: white;
+}
+.footer > a img {
+  width: 24px;
+  opacity: 0.8;
+}
+.footer > a:hover img {
+  opacity: 1;
+}
+@media (max-width: 450px) {
+  .footer {
+    flex-direction: column;
+  }
+  /* .product_details {
+  position: relative;
+  z-index: -1;
+} */
+}
+@media (min-width: 37.5em) {
+  .product_details .rate {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    margin-top: 0;
+  }
+  .product_details .controls > div.qty {
+    width: 60px;
+  }
+  .product_details .controls > div + div {
+    border-left: 2px solid rgba(187, 187, 187, 0.5);
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100px;
+    margin-top: 0;
+  }
+  .product_details .controls {
+    display: flex;
+  }
+}
+@media (min-width: 56.25em) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    margin: 100px auto;
+
+    background: #0f172a;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 20px;
+  }
+
+  .product_image {
+    border-radius: 20px 0 0 20px;
+    width: 85%;
+    margin: 30px;
+  }
+
+  .product_pic {
+    border-radius: 10px;
+    left: -40px;
+    width: 100%;
+  }
+
+  .product_details {
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+  }
+}

@@ -1,0 +1,16 @@
+.chart-container {
+  width: 33%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .chart-container {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .chart-container {
+    width: 80%;
+  }
+}

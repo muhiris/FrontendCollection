@@ -1,0 +1,10 @@
+main {
+  margin-left: 225px;
+  margin-top: 70px;
+}
+@media screen and (max-width: 600px) {
+  main {
+    margin-left: 70px;
+    margin-top: 70px;
+  }
+}

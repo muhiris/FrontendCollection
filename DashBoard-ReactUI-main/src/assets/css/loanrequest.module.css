@@ -1,0 +1,36 @@
+.btn-l,
+button {
+  background: 0 0;
+  border: 2px solid #3498db;
+  color: #3498db;
+  transition: all 0.2s;
+  padding: 7px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 2px;
+  margin: 5px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+button:hover,
+button:focus {
+  color: #fff;
+  background: #3498db;
+}
+
+.btn_cancel {
+  border-color: #cd201f;
+  color: #cd201f;
+}
+.btn_cancel:hover,
+.btn_cancel:focus {
+  background: #cd201f;
+}
+
+.btn_ok {
+  border-color: #009e7e;
+  color: #009e7e;
+}
+.btn_ok:hover,
+.btn_ok:focus {
+  background: #009e7e;
+}

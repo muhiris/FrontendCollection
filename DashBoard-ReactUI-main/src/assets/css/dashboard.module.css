@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:300|Lato:300,400,600,700|Roboto+Condensed:300,700|Open+Sans+Condensed:300,600|Open+Sans:400,300,600,700|Maven+Pro:400,700);
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css");
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #202b33;
+  color: #738491;
+  font-family: "Open Sans";
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+article {
+  background-color: #1e293b;
+  border-top: 1px solid #26344b;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+article section {
+  /* height: 350px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+article section > header {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+article section .chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 400px;
+}
+article section .inlineChart {
+  float: left;
+  width: 30%;
+  margin-bottom: 50px;
+}
+article section .inlineChart canvas {
+  float: left;
+}
+article section .inlineChart .info {
+  float: left;
+  padding-left: 20px;
+  padding-top: 16px;
+}
+article section .inlineChart .info .value {
+  font-size: 2rem;
+  color: #d3d3d3;
+}
+article section table {
+  width: 100%;
+}
+article section table th,
+article section table td {
+  padding: 15px;
+  border-bottom: 1px solid #2a3843;
+}
+article section table thead th {
+  text-align: left;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: #d3d3d3;
+}

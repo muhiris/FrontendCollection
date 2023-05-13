@@ -1,0 +1,48 @@
+* {
+  color: white;
+}
+input[type="search"] {
+  border: 1px solid #0f172a;
+  padding: 20px;
+  margin: 6rem auto 1rem auto;
+  display: block;
+  width: 50%;
+  border-radius: 8px;
+  outline: none;
+  background: #0f172a;
+  color: white;
+}
+table {
+  border: 1px solid #334155;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+
+table tr {
+  border: 1px solid #334155;
+  padding: 0.35em;
+}
+table tr:nth-child(even) {
+  background: #0f172a;
+}
+table tr:nth-child(odd) {
+  background: #1a294d;
+}
+table th,
+table td {
+  padding: 0.625em;
+  text-align: left;
+}
+table th {
+  background: #1d3152;
+  color: #fff;
+  font-size: 0.85em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
