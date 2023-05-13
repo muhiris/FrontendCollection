@@ -3,13 +3,13 @@ Sure, here's an updated version of the markdown with the link and description ad
 # Frontend Collection
 
 This repository is a collection of frontend projects showcasing HTML, CSS, and JavaScript development, as well as React-based projects. Explore the repository and discover new projects to work on or learn from.
-
+<br/><br/>
 ## Table of Contents
 1. [Projects](#projects)
 2. [How to Use](#how-to-use)
 3. [Contributing](#contributing)
-Sure! Here's an updated version of the markdown with the two additional projects you mentioned:
-
+<br/><br/>
+<a name="projects"></a>
 ## Projects
 
 | Folder | Description | Link |
@@ -23,10 +23,13 @@ Sure! Here's an updated version of the markdown with the two additional projects
 | Portfolio-1 | A portfolio website with GSAP animations, built for a freelancer. | [Link](https://github.com/muhiris/FrontendCollection/tree/main/Portfolio) |
 | Portfolio-2 | A portfolio landing page for a freelancer. | [Link](https://github.com/muhiris/FrontendCollection/tree/main/PortfolioTry) |
 | Travel Agency | A landing page for a travel agency. | [Link](https://github.com/muhiris/FrontendCollection/tree/main/TravelAgency) |
-| Wakatipu Boat | A 2D game with canvas HTML element, XML reading using JS, and weather API integration. Built with vanilla JS. | [Link](https://github.com/muhiris/FrontendCollection/tree/main/Wakatipu-Boat-main) |
+| Wakatipu Boat | A 2D game with canvas HTML element, XML reading using JS, and weather API integration. Built with vanilla JS. | [Link](https://github.com/muhiris/FrontendCollection/tree/main/Wakatipu-Boat-Adventure-main) |
 | Youtube | A clone of the Youtube landing page. | [Link](https://github.com/muhiris/FrontendCollection/tree/main/Youtube) |
 | SCMS Landing | A landing page for an app with a description and beautiful design. | [Link](https://github.com/muhiris/FrontendCollection/tree/main/SCMS%20Landing%20Page) |
 | SCMS_secondaryLandingpage | A secondary landing page for an app with a description and beautiful design. | [Link](https://github.com/muhiris/FrontendCollection/tree/main/SCMS_SecondaryLandingPage) |
+
+<br/>
+<a name="how-to-use"></a>
 
 ## How to Use
 
@@ -43,18 +46,6 @@ Sure! Here's an updated version of the markdown with the two additional projects
 3. Run `npm install` to install dependencies.
 4. Run `
 
-## How to Use
-### HTML, CSS, and JavaScript Projects
-1. Clone or download the project from the repository
-2. Open the project directory in your preferred code editor
-3. Open the `index.html` file in your web browser to view the project
-
-### React Projects
-1. Clone or download the project from the repository
-2. Open the project directory in your preferred code editor
-3. Run `npm install` in the project directory to install the necessary dependencies
-4. Run `npm start` to start the development server
-5. Open the project in your web browser to view the project
 
 ## Contributing
 We welcome contributions from the community to improve and expand the collection of projects. To contribute:
