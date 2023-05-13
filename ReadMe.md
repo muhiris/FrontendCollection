@@ -1,9 +1,17 @@
 
-
 # Frontend Collection
 
 This repository is a collection of frontend projects showcasing HTML, CSS, and JavaScript development, as well as React-based projects. Explore the repository and discover new projects to work on or learn from.
-<br/><br/>
+
+<br/>
+
+> Note: Recently added projects that are not included in Frontend showcase Website.
+>
+> - [React Dashboard UI](https://harisadminpanel.netlify.app)
+> - [Teacher Onboarding](https://starlit-fairy-c91d46.netlify.app)
+
+<br/>
+
 ## Table of Contents
 1. [Projects](#projects)
 2. [How to Use](#how-to-use)
@@ -57,3 +65,4 @@ We welcome contributions from the community to improve and expand the collection
 5. Submit a pull request with a description of your changes
 
 Thank you for contributing!
+
