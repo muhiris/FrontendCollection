@@ -1,4 +1,4 @@
-Sure, here's an updated version of the markdown with the link and description added:
+
 
 # Frontend Collection
 
