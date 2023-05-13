@@ -1,0 +1,113 @@
+/* Background image design */
+
+body,
+html {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden !important;
+}
+
+body {
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/raphael-maksian-Qn7bJt56sGY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  /* background-attachment: fixed; */
+}
+
+/* nav design */
+
+.nav ul li:nth-child(1) ::after {
+  width: 100%;
+}
+
+/* Content center of page */
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 44vh;
+  /* left: 3vw; */
+  transform: translateY(-60%);
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+
+/* Button work */
+
+.buy-button {
+  position: fixed;
+  top: 40vh;
+  left: 43vw;
+  width: 200px;
+  padding: 15px 0px;
+  text-align: center;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 3px solid #c40b0b;
+  background: transparent;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+
+button a {
+  font-family: sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+
+span {
+  background: #c40b0b;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+button:hover span {
+  width: 100%;
+}
+
+button:hover {
+  border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    font-size: 15px;
+  }
+  .buy-button {
+    top: 40vh;
+    left: 30vw;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .buy-button {
+    left: 25vw;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .content {
+    font-size: 10px;
+    margin-top: 12px;
+  }
+  .buy-button {
+    padding: 12px;
+    left: 18vw;
+    top: 45vh;
+  }
+}
