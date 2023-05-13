@@ -44,7 +44,7 @@ This repository is a collection of frontend projects showcasing HTML, CSS, and J
 1. Clone the repository using `git clone https://github.com/muhiris/FrontendCollection.git`.
 2. Navigate to the folder of the React project you want to run.
 3. Run `npm install` to install dependencies.
-4. Run `
+4. Start the development server by running `npm start`.
 
 
 ## Contributing
