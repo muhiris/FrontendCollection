@@ -1,0 +1,110 @@
+/* about section */
+body .about {
+  background-color: var(--secondary-gray);
+}
+body .about .about-heading {
+  font-size: 1.4rem;
+  text-align: center;
+}
+body .about .about-heading h1 {
+  color: var(--primary-color);
+  padding-top: 5vw;
+  padding-bottom: 2vw;
+}
+body .about .about-content p {
+  max-width: 1200px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  padding: 2em;
+}
+body .about .icons {
+  max-width: 700px;
+  padding: 2em;
+}
+body .about .icon-content .about-icons-flex {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+body .about .icon-content .about-icons-flex > p {
+  margin: 0em 1em;
+  font-size: 1.4rem;
+}
+body .services .appointment-service button,
+body .about .icon-content .about-icons-flex a > button {
+  padding: 0.9rem 5rem;
+  background-color: var(--primary-color);
+  border-radius: 3px;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+/* Services */
+body .services {
+  background-color: white;
+}
+body .services .heading {
+  color: var(--primary-color);
+  padding: 3vw 0vw;
+  font-size: 1.4rem;
+  text-align: center;
+}
+body .services .grid-services {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  place-items: center;
+  text-align: start;
+}
+body .services .grid-services .service-item {
+  padding: 0em 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 400px;
+}
+body .services .grid-services .service-item > p {
+  font-size: 1rem;
+}
+body .services .grid-services .service-item > * {
+  margin: 0.4em 0em;
+}
+body .services .appointment-service {
+  flex-wrap: wrap;
+}
+body .services .appointment-service .appointmenta {
+  width: 100%;
+}
+body .services .appointment-service .appointmenta .appointment {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0rem 4rem 4rem;
+}
+body .services .appointment-service .appointmenta .appointment > h2 {
+  padding-bottom: 1rem;
+}
+body .services .appointment-service .appointmenta button {
+  margin-right: 3em;
+  width: 280px;
+  padding: 0.8rem 1rem;
+  align-self: center;
+}
+
+@media screen and (max-width: 580px) {
+  body .services .grid-services .service-item > p {
+    font-size: 1.4rem;
+  }
+  body .services .appointment-service .appointmenta {
+    flex-direction: column;
+  }
+  body .services .appointment-service .appointmenta button {
+    width: 75%;
+    margin: 0rem;
+    margin-bottom: 0.5rem;
+  }
+  body .services .appointment-service .appointmenta .appointment > h3 {
+    font-size: 1.3rem;
+  }
+}

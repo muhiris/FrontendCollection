@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+:root {
+  --primary-color: #ffc300;
+  --secondary-color: #181818;
+  --secondary-gray: #eee;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+  background: #000;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: #2e2e2e;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.pressed {
+  color: var(--primary-color) !important;
+}
+.active {
+  color: var(--primary-color) !important;
+}
+.whatsapp-icon:hover,
+button:hover {
+  filter: brightness(0.8);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Navigation */
+body .home .nav {
+  color: white;
+  margin: 0px 1em;
+}
+body .home .nav ul {
+  display: flex;
+  list-style: none;
+}
+body .home .nav ul li {
+  font-size: 1.1rem;
+  margin-right: 1.5rem;
+}
+/* Responsive Nav */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.sidenav a,
+.sidenav img {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover,
+footer .footer .footer-hed p > a:hover,
+body .home .nav ul li a:hover {
+  color: #ffc300;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+.hide-nav {
+  display: none;
+}
+#no-hover:hover {
+  color: #eee;
+}
+/* Home Page */
+body .home {
+  position: relative;
+  min-height: 100vh;
+  background: center no-repeat url(/css/img/house_0.jpg), rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-attachment: fixed;
+  animation: imageChange ease-in-out 10s infinite;
+  background-blend-mode: multiply;
+}
+@keyframes imageChange {
+  0% {
+    background-image: url(/css/img/house_0.jpg);
+  }
+  33% {
+    background-image: url(/css/img/house_1.jpg);
+  }
+  66% {
+    background-image: url(/css/img/house_2.jpg);
+  }
+  99% {
+    background-image: url(/css/img/house_3.jpg);
+  }
+}
+body .home .heading-home {
+  min-height: 70vh;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  padding: 0vw 10vw;
+  flex-direction: column;
+}
+body .home .heading-home h3 {
+  padding-top: 0.3em;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+body .home .arrow-img {
+  animation: double-arrow 1s ease-in-out infinite;
+}
+body .home .arrow-img img {
+  transform: rotate(180deg);
+}
+@keyframes double-arrow {
+  50% {
+    transform: translateY(15px);
+  }
+}
+.whatsapp {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+}
+
+/* Footer */
+footer {
+  background-color: var(--secondary-color);
+  color: #eeee;
+  padding: 2rem 4rem;
+}
+footer .footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+footer .footer .footer-hed {
+  margin-bottom: 1rem;
+}
+footer .footer .footer-hed > p {
+  max-width: 350px;
+  padding: 0.3em 0em;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+footer .footer .footer-hed p > a {
+  font-size: 1.3rem;
+}
+footer .footer .footer-hed > h2 {
+  padding-bottom: 0.7em;
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 580px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  body .home .nav ul {
+    display: none;
+  }
+  .hide-nav {
+    display: block;
+  }
+
+  html {
+    font-size: 11px;
+  }
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a,
+  .sidenav img {
+    font-size: 18px;
+  }
+  .sidenav img {
+    width: 100%;
+  }
+}
